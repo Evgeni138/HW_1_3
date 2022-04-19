@@ -1,0 +1,10 @@
+﻿int xA = 3;
+int yA = 6;
+int zA = 8;
+int xB = 2;
+int yB = 1;
+int zB = -7;
+double S;
+S = Math.Sqrt((xB-xA)*(xB-xA)+(yB-yA)*(yB-yA)+(zB-zA)*(zB-zA));
+Console.Write("Расстояние от точки А до точки В = ");
+Console.WriteLine("{0:f2}", S);
